@@ -11,7 +11,7 @@
         "psr-4": { "Composer\\Installers\\": "src/" }
     },
     "extra": {
-        "class": "Composer\\Installers\\PhraseanetInstaller",
+        "class": "Composer\\Installers\\PhraseanetPlugin",
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
