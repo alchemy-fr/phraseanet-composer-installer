@@ -1,6 +1,6 @@
 {
     "name": "phraseanet/composer-installer",
-    "type": "composer-installer",
+    "type": "composer-plugin",
     "license": "MIT",
     "description": "A Phraseanet framework Composer installer",
     "keywords": [
