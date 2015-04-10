@@ -1,0 +1,23 @@
+{
+    "name": "phraseanet/composer-installer",
+    "type": "composer-installer",
+    "license": "MIT",
+    "description": "A Phraseanet framework Composer installer",
+    "keywords": [
+        "installer",
+        "Phraseanet"
+    ],
+    "autoload": {
+        "psr-4": { "Composer\\Installers\\": "src/" }
+    },
+    "extra": {
+        "class": "Composer\\Installers\\PhraseanetInstaller",
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev",
+        "phpunit/phpunit": "~4.5"
+    }
+}
